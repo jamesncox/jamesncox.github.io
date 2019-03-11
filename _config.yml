@@ -1,11 +1,11 @@
 # Site settings
 author: James Cox
-title: 
+title: A Newbie to Ruby
 header-img: img/home-bg.png
 email: jamesncox@yahoo.com
 copyright_name: James Cox
 description: > # this means to ignore newlines until "baseurl:"
-  
+  I'm going to learn coding; this is what that looks like....
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: MemRook
 github_username:  jamesncox
