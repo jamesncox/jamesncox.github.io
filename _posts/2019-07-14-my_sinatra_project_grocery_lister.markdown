@@ -1,14 +1,13 @@
 ---
 layout: post
 title:      "My Sinatra Project: Grocery Lister"
-date:       2019-07-15 00:37:28 +0000
+date:       2019-07-14 20:37:29 -0400
 permalink:  my_sinatra_project_grocery_lister
 ---
 
+https://github.com/jamesncox/grocery_list
 
 Can you guess what my app does? Yes! You can create and edit grocery lists with my CRUD-functioning program. 
-
-https://github.com/jamesncox/grocery_list
 
 Boy, did I learn A LOT working on this project, especially things that maybe weren't clear to me from our CLI project or earlier curriculum. However, creating this app was like one continuous lightbulb after lightbulb turning on for me!
 
