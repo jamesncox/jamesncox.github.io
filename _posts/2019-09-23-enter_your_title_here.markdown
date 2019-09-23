@@ -33,4 +33,37 @@ end
 
 And then in my views, I tell it took look for a recipe by it's meal type attribute, and with some helper methods to downcase and then humanize (make the beginning of a word capital), I can sort each meal into the appropriate part of my index view page.
 
+```
+<h1>Your Recipes</h1>
+
+<section class="todoapp">
+	<section class="main" style="display: block;">
+		<ul class="todo-list">
+
+            <h3><font color="CornFlowerBlue">Breakfasts:</font></h3>
+
+            <%= render partial: "recipe_meal", locals: {meals: @recipes.food_by_meal("breakfast") } %>
+
+            <h3><font color="CornFlowerBlue">Lunches:</font></h3>
+
+            <%= render partial: "recipe_meal", locals: {meals: @recipes.food_by_meal("lunch") } %>
+
+            <h3><font color="CornFlowerBlue">Dinners:</font></h3>
+
+            <%= render partial: "recipe_meal", locals: {meals: @recipes.food_by_meal("dinner") } %>
+
+        </ul>
+	</section>
+</section>
+
+<p><%= button_to "Create a Recipe", new_recipe_path, :method => "get" %></p>
+
+<p><%= button_to "Homepage", root_path, :method => "get" %></p>
+
+```
+
 ![](C:\Users\james\OneDrive\Pictures\Screenshots\Recipe Views Index.png)
+
+Overall, this project gave me a good deal of headache, but I also learned a lot about setting up the environment, debugging in the terminal, playing with objects in the console, reading errror messages from the server/browser, and good old fashioned Googling. 
+
+I had to jerry-rig some functionality into my app that Rails alone can't provide, and that JavaScript will dramatically improve the user experience. But for now, I am proud of what I made, and I am looking forward to the next section and incorporating more front-end elements into my Mealzy's food prep managing website.
